@@ -38,7 +38,7 @@ This below figure shows a 7-day moving window calculation of the growth rate of 
 
 Specifically, a linear fit to `log(value)`  is calculated using a 7-day moving window. The slope of this line is expressed as a doubling rate via `log(2)/log(slope)`. This is then plotted with time. It's essentially the change in time of a moving window first derivative. The moving window approach is used to help filter out some of the noise in data, e.g., when there is no reporting over weekends, etc.
 
-![](World_movingwindow_growth2020-03-23)
+![](World_movingwindow_growth2020-03-23.png)
 *Figure 6*: 7-day moving window rate of change of growth for select countries. Greater doubling rates implies a slow down.
 
 
