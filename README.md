@@ -34,7 +34,7 @@ These are currently: Canada, France, Italy, Spain, UK, US
 
 As countries' growth rates slow and hasten, the rate of change of these rates can be useful for quantifying if the situation is getting better or worse.
 
-This below figure shows a 7-day moving window calculation of the growth rate of covid19 cases, expressed as days to double.
+This below figure shows a 7-day moving window calculation of the growth rate of covid19 cases, expressed as days to double. The flagged dates are the dates of lockdown.
 
 Specifically, a linear fit to `log(value)`  is calculated using a 7-day moving window. The slope of this line is expressed as a doubling rate via `log(2)/log(slope)`. This is then plotted with time. It's essentially the change in time of a moving window first derivative. The moving window approach is used to help filter out some of the noise in data, e.g., when there is no reporting over weekends, etc.
 
