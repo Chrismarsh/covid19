@@ -14,10 +14,10 @@ List of figures:
 *Figure 1*: Per-province, logy growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the, at least 5th reported case. 
 
 ![](Canada_2020-03-23.png)
-*Figure 2*: Time series of logy growth of reported infected cases. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occure when the values are close together.
+*Figure 2*: Time series of logy growth of reported infected cases. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 ![](Cad_deaths2020-03-23.png)
-*Figure 3*: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occure when the values are close together.
+*Figure 3*: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 # [Global](#global)
 A subset of global countries are included so-as to ensure clear communication of data. 
@@ -28,11 +28,11 @@ These are currently: Canada, France, Italy, Spain, UK, US
 *Figure 4*: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the, at least 100th reported case. 
 
 ![](World_deaths_since10th_2020-03-23.png)
-*Figure 5*: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occure when the values are close together.
+*Figure 5*: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 # [Global change in rate of growth](#growth)
 
-As countries' growth rates slow and hasten, the rate of change of these rates can be useful for quanitfying if the situation is getting better or worse.
+As countries' growth rates slow and hasten, the rate of change of these rates can be useful for quantifying if the situation is getting better or worse.
 
 This below figure shows a 7-day moving window calculation of the growth rate of covid19 cases, expressed as days to double.
 
