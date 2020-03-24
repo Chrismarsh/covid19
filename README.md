@@ -1,5 +1,5 @@
 # COVID19
-A Canada-first breakdown and analysis of the COVID19 pandemic. The data are from John-Hopkins University CSSE 
+A Canada-first breakdown and analysis of the COVID19 pandemic. The data are from John-Hopkins University CSSE. Data are updated at UTC+0 daily. These plots thus reflect the previous day's complete data. This date is in the title with the date generated in the footer.
 
 https://github.com/CSSEGISandData/COVID-19
 
