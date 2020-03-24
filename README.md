@@ -3,7 +3,12 @@ A Canada-first breakdown and analysis of the COVID19 pandemic. The data are from
 
 https://github.com/CSSEGISandData/COVID-19
 
-# Canada
+List of figures:
+- [Canada](#canada)
+- [Global](#global)
+- [Rate of change analysis](#growth)
+
+# [Canada](#canada)
 
 ![](Canada_exp_2020-03-23.png)
 *Figure 1*: Per-province, logy growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the, at least 5th reported case. 
@@ -14,7 +19,7 @@ https://github.com/CSSEGISandData/COVID-19
 ![](Cad_deaths2020-03-23.png)
 *Figure 3*: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occure when the values are close together.
 
-# Global
+# [Global](#global)
 A subset of global countries are included so-as to ensure clear communication of data. 
 
 These are currently: Canada, France, Italy, Spain, UK, US
@@ -25,7 +30,7 @@ These are currently: Canada, France, Italy, Spain, UK, US
 ![](World_deaths_since10th_2020-03-23.png)
 *Figure 5*: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occure when the values are close together.
 
-# Global change in rate of growth
+# [Global change in rate of growth](#growth)
 
 As countries' growth rates slow and hasten, the rate of change of these rates can be useful for quanitfying if the situation is getting better or worse.
 
