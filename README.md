@@ -19,6 +19,7 @@ List of figures:
 ![](Canada_dailycases.png)
 **Figure 3**: Time series of daily reported infected cases, per-province. 
 
+## Canada Deaths ##
 ![](Cad_deaths.png)
 **Figure 4**: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
