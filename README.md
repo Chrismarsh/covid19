@@ -19,9 +19,19 @@ List of figures:
 ![](Canada_dailycases.png)
 **Figure 3**: Time series of daily reported infected cases, per-province. 
 
+
+As provinces' growth rates slow and hasten, the rate of change of these rates can be useful for quantifying if the situation is getting better or worse.
+
+This below figure shows a 10-day moving window calculation of the growth rate of covid19 cases, expressed as days to double. The flagged dates are the dates of lockdown.
+
+Specifically, a linear fit to `log(value)`  is calculated using a 10-day moving window. The slope of this line is expressed as a doubling rate via `log(2)/log(slope)`. This is then plotted with time. It's essentially the change in time of a moving window first derivative. The moving window approach is used to help filter out some of the noise in data, e.g., when there is no reporting over weekends, etc.
+
+![](Canda_exp_rates.png)
+**Figure 4**: 10-day moving window rate of change of growth for provinces. Greater doubling rates implies a slow down.
+
 ## Canada Deaths ##
 ![](Cad_deaths.png)
-**Figure 4**: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+**Figure 5**: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 # [Global](#global)
 A subset of global countries are included so-as to ensure clear communication of data. 
@@ -29,10 +39,10 @@ A subset of global countries are included so-as to ensure clear communication of
 These are currently: Canada, France, Italy, Spain, UK, US
 
 ![](World_exp.png)
-**Figure 5**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 6**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](World_deaths_since10th.png)
-**Figure 6**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+**Figure 7**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 # [Global change in rate of growth](#growth)
 
@@ -40,10 +50,10 @@ As countries' growth rates slow and hasten, the rate of change of these rates ca
 
 This below figure shows a 10-day moving window calculation of the growth rate of covid19 cases, expressed as days to double. The flagged dates are the dates of lockdown.
 
-Specifically, a linear fit to `log(value)`  is calculated using a 7-day moving window. The slope of this line is expressed as a doubling rate via `log(2)/log(slope)`. This is then plotted with time. It's essentially the change in time of a moving window first derivative. The moving window approach is used to help filter out some of the noise in data, e.g., when there is no reporting over weekends, etc.
+Specifically, a linear fit to `log(value)`  is calculated using a 10-day moving window. The slope of this line is expressed as a doubling rate via `log(2)/log(slope)`. This is then plotted with time. It's essentially the change in time of a moving window first derivative. The moving window approach is used to help filter out some of the noise in data, e.g., when there is no reporting over weekends, etc.
 
 ![](World_movingwindow_growth.png)
-**Figure 7**: 10-day moving window rate of change of growth for select countries. Greater doubling rates implies a slow down.
+**Figure 8**: 10-day moving window rate of change of growth for select countries. Greater doubling rates implies a slow down.
 
 
 
