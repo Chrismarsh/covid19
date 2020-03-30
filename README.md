@@ -7,6 +7,7 @@ List of figures:
 - [Canada](#canada)
 - [Global](#global)
 - [Rate of change analysis](#growth)
+- [United States](#US)
 
 # [Canada](#canada)
 
