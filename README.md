@@ -56,7 +56,19 @@ Specifically, a linear fit to `log(value)`  is calculated using a 10-day moving 
 **Figure 8**: 10-day moving window rate of change of growth for select countries. Greater doubling rates implies a slow down.
 
 
+# [US](#US)
 
+The top 5 states (including Idaho due to a personal friend living there) are plotted, and these selected for deaths.
+
+These data are from the New York Times github repository:
+
+https://github.com/nytimes/covid-19-data
+
+![](selectStates_exp.png)
+**Figure 9**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+
+![](selectStates_deaths.png)
+**Figure 10**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 
 
