@@ -49,6 +49,9 @@ A subset of global countries are included so-as to ensure clear communication of
 ![](World_deaths_since10th.png)
 **Figure 8**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
+![](Globaldeathrate_growth.png)
+**Figure 9**: Rate of change of the global death rate, expressed as days to double. Computed as a 10-day moving window.
+
 # [Global change in rate of growth](#growth)
 
 As countries' growth rates slow and hasten, the rate of change of these rates can be useful for quantifying if the situation is getting better or worse.
@@ -58,7 +61,7 @@ This below figure shows a 10-day moving window calculation of the growth rate of
 Specifically, a linear fit to `log(value)`  is calculated using a 10-day moving window. The slope of this line is expressed as a doubling rate via `log(2)/log(slope)`. This is then plotted with time. It's essentially the change in time of a moving window first derivative. The moving window approach is used to help filter out some of the noise in data, e.g., when there is no reporting over weekends, etc.
 
 ![](World_movingwindow_growth.png)
-**Figure 9**: 10-day moving window rate of change of growth for select countries. Greater doubling rates implies a slow down.
+**Figure 10**: 10-day moving window rate of change of growth for select countries. Greater doubling rates implies a slow down.
 
 
 # [US](#US)
@@ -70,10 +73,10 @@ These data are from the New York Times github repository:
 https://github.com/nytimes/covid-19-data
 
 ![](selectStates_exp.png)
-**Figure 10**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 11**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](selectStates_deaths.png)
-**Figure 11**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
+**Figure 12**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 
 
