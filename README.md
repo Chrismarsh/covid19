@@ -31,7 +31,7 @@ Specifically, a linear fit to `log(value)`  is calculated using a 10-day moving 
 **Figure 4**: 10-day moving window rate of change of growth for provinces. The reference 2% rate is approximately South Korea's rate.
 
 
-A method to detect if a country/province has fallen off the exponential growth part of a logistic curve was suggested by ![Minute Physics "How To Tell If We're Beating COVID-19"](https://www.youtube.com/watch?v=54XLXg4fYsc). In summary, the idea is based on if we are currently following exponential growth, then the new daily cases as well as the cumulative cases both will increase exponentially. Plotting the two against each other, on log axes, results in a straight line. Thus, if the daily case growth is no longer exponential, there is a deviation from this straight line. In this case, weekly growth is used to help filter out the sampling noise.
+A method to detect if a country/province has fallen off the exponential growth part of a logistic curve was suggested by [Minute Physics "How To Tell If We're Beating COVID-19"](https://www.youtube.com/watch?v=54XLXg4fYsc). In summary, the idea is based on if we are currently following exponential growth, then the new daily cases as well as the cumulative cases both will increase exponentially. Plotting the two against each other, on log axes, results in a straight line. Thus, if the daily case growth is no longer exponential, there is a deviation from this straight line. In this case, weekly growth is used to help filter out the sampling noise.
 
 ![](Canada_change+method2.png)
 **Figure 5**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
@@ -55,7 +55,7 @@ A subset of global countries are included so-as to ensure clear communication of
 ![](World_deaths_growthrates.png)
 **Figure 9**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
 
-# [Global change in rate of growth](#growth)
+# [Global rate of growth](#growth)
 
 ![](World_growthrates.png)
 **Figure 10**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
