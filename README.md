@@ -41,27 +41,30 @@ A method to detect if a country/province has fallen off the exponential growth p
 ![](Canada_deaths.png)
 **Figure 6**: Per-province, time series of logy death counts. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
+![](Canada_daily_deaths.png)
+**Figure 7**: Per-province, daily deaths.
+
 
 # [Global](#global)
 A subset of global countries are included so-as to ensure clear communication of data. 
 
 
 ![](World_exp.png)
-**Figure 7**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 8**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](World_deaths.png)
-**Figure 8**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+**Figure 9**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 ![](World_deaths_growthrates.png)
-**Figure 9**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
+**Figure 10**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
 
 # [Global rate of growth](#growth)
 
 ![](World_growthrates.png)
-**Figure 10**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
+**Figure 11**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
 
 ![](World_change+method2.png)
-**Figure 11**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 12**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 # [US](#US)
 
@@ -72,13 +75,13 @@ These data are from the New York Times github repository:
 https://github.com/nytimes/covid-19-data
 
 ![](selectStates_exp.png)
-**Figure 12**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 13**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](selectStates_deaths.png)
-**Figure 13**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
+**Figure 14**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 ![](US_change+method2.png)
-**Figure 14**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 15**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 
 
