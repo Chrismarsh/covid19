@@ -38,7 +38,7 @@ A method to detect if a country/province has fallen off the exponential growth p
 
 Comparing per capita numbers between countries has a lot of uncertainty due to population being just one of many factors that influences a country's response. However, comparing between provinces in Canada on a per capita basis shows a significant correlation between province population and cumulative cases. The below plot uses a 7-day rolling mean to filter some of the sampling noise and is per 50k population.
 
-![](canada_deaths_per.png)
+![](canada_cases_per.png)
 **Figure 6**: New daily cases versus days since 10th case. Daily cases are per 50k population.
 
 ## Canada Deaths ##
