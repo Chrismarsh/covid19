@@ -81,11 +81,14 @@ https://github.com/nytimes/covid-19-data
 ![](US_selectStates_exp.png)
 **Figure 14**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
+![](US_selectstates_growthrate.png)
+**Figure 15**: Top 5 states (w.r.t case load), incl Idaho. 10-day moving window rate of change of growth for select states. 
+
 ![](US_selectStates_deaths.png)
-**Figure 15**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
+**Figure 16**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 ![](US_change+method2.png)
-**Figure 16**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 17**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 
 
