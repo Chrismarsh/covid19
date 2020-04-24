@@ -78,10 +78,10 @@ These data are from the New York Times github repository:
 
 https://github.com/nytimes/covid-19-data
 
-![](selectStates_exp.png)
+![](US_selectStates_exp.png)
 **Figure 14**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
-![](selectStates_deaths.png)
+![](US_selectStates_deaths.png)
 **Figure 15**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 ![](US_change+method2.png)
