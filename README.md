@@ -8,7 +8,7 @@ List of figures:
 - [Global](#global)
 - [United States](#us)
 
-#Canada
+# Canada
 
 ![](Canada_exp.png)
 **Figure 1**: Per-province, logy growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 5th reported case. 
