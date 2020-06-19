@@ -47,27 +47,31 @@ Comparing per capita numbers between countries has a lot of uncertainty due to p
 ![](Canada_daily_deaths.png)
 **Figure 8**: Per-province, daily deaths.
 
+## Normalized ##
+
+![](canada_normalized.png)
+**Figure 9**: Death and cases values normalized against each respective peak, per province. 
 
 # Global
 A subset of global countries are included so-as to ensure clear communication of data. 
 
 ![](World_exp.png)
-**Figure 9**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 10**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](World_deaths.png)
-**Figure 10**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+**Figure 11**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 ![](World_deaths_growthrates.png)
-**Figure 11**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
+**Figure 12**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
 
 ![](World_growthrates.png)
-**Figure 12**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
+**Figure 13**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
 
 ![](World_change+method2.png)
-**Figure 13**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 14**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 ![](Global_normalized.png)
-**Figure 14**: Top 50 countries (by total cases). Deaths and cases are normalized against that countries peak value (deaths/cases seperate). 1 = the worst that country has seen.
+**Figure 15**: Top 50 countries (by total cases). Deaths and cases are normalized against that countries peak value (deaths/cases seperate). 1 = the worst that country has seen.
 
 # US
 
@@ -78,17 +82,17 @@ These data are from the New York Times github repository:
 https://github.com/nytimes/covid-19-data
 
 ![](US_selectStates_exp.png)
-**Figure 15**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 16**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](US_selectstates_growthrate.png)
-**Figure 16**: Top 5 states (w.r.t case load), incl Idaho. 10-day moving window rate of change of growth for select states. 
+**Figure 17**: Top 5 states (w.r.t case load), incl Idaho. 10-day moving window rate of change of growth for select states. 
 
 ![](US_selectStates_deaths.png)
-**Figure 17**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
+**Figure 18**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 ![](US_change+method2.png)
-**Figure 18**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 19**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 ![](us_normalized.png)
-**Figure 19**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
+**Figure 20**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
 
