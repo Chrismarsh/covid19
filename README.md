@@ -10,8 +10,8 @@ List of figures:
 
 # Canada
 
-![](Canada_exp.png)
-**Figure 1**: Per-province, logy growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 5th reported case. 
+![](Canada_dailycases_perprovince.png)
+**Figure 1**: Per-province, daily new reported infected cases.
 
 ![](Canada.png)
 **Figure 2**: Time series of logy growth of reported infected cases. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
