@@ -116,6 +116,6 @@ https://github.com/nytimes/covid-19-data
 ![](us_normalized.png)
 **Figure 24**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
 
-[](US_top_daily_deaths.png)
+![](US_top_daily_deaths.png)
 **Figure 25**: Daily deaths, colored for top 11 states. These are the top 11 states that have the absolute greatest deaths/day.
 
