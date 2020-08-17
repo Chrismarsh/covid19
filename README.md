@@ -5,20 +5,20 @@ https://github.com/CSSEGISandData/COVID-19
 
 List of figures:
 - [Canada](#canada)
+- [Province testing & hospitalization](#province)
 - [Global](#global)
 - [United States](#us)
 
 # Canada
 
-![](Canada_dailycases_perprovince.png)
-**Figure 1**: Per-province, daily new reported infected cases.
-
-![](Canada.png)
-**Figure 2**: Time series of logy growth of reported infected cases. Black line is Canada. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+![](Canada_exp.png)
+**Figure 1**: Canada per-province cases, days since 25th case. 
 
 ![](Canada_dailycases.png)
-**Figure 3**: Time series of daily reported infected cases, per-province. 
+**Figure 2**: Time series of daily reported infected cases, per-province. 
 
+![](Canada_dailycases_perprovince.png)
+**Figure 3**: Per-province, daily new reported infected cases.
 
 As provinces' growth rates slow and hasten, the rate of change of these rates can be useful for quantifying if the situation is getting better or worse.
 
@@ -35,7 +35,7 @@ A method to detect if a country/province has fallen off the exponential growth p
 ![](Canada_change+method2.png)
 **Figure 5**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
-Comparing per capita numbers between countries has a lot of uncertainty due to population being just one of many factors that influences a country's response. However, comparing between provinces in Canada on a per capita basis shows a significant correlation between province population and cumulative cases. The below plot uses a 7-day rolling mean to filter some of the sampling noise and is per 50k population.
+Comparing per capita numbers between countries has a lot of uncertainty due to population being just one of many factors that influences a country's response. However, comparing between provinces in Canada on a per capita basis shows a significant correlation between province population and cumulative cases. The below plot uses a 7-day rolling mean to filter some of the sampling noise and is per 100k population.
 
 ![](canada_cases_per.png)
 **Figure 6**: New daily cases versus days since 10th case. Daily cases are per 50k population.
@@ -47,31 +47,51 @@ Comparing per capita numbers between countries has a lot of uncertainty due to p
 ![](Canada_daily_deaths.png)
 **Figure 8**: Per-province, daily deaths.
 
+![](Canada_excess_death.png)
+**Figure 9**: All-cause mortality for 2010-2019 (grey) and 2020 (black). Based on Stats Canada The Daily ["Provisional death counts and excess mortality, January 2019 to May 2020"](https://www150.statcan.gc.ca/n1/daily-quotidien/200724/dq200724a-eng.htm)
+
 ## Normalized ##
 
+Normalized plots allow for more readily understanding the timing and relative impact of events (e.g., case rise and resulting deaths). Each province is normalized against that provinces peak daily death and peak daily new case count. 
+
 ![](canada_normalized.png)
-**Figure 9**: Death and cases values normalized against each respective peak, per province. 
+**Figure 10**: Death and cases values normalized against each respective peak, per province. 7-day rolling mean.
+
+## Province
+### Saskatchewan ###
+
+![](SK_hosp.png)
+**Figure 11**: Inpatient and ICU patient numbers.
+
+![]SK_tests.png)
+**Figure 12**: Normalized testing and total number of positive cases.
+
+SaskHealth does not (seem to?) report test positivity. As testing increases, this is useful to determine if increased testing is catching more asymptomatic cases that before. Dividing total positive/total tests misses the temporal correlation of tests and cases, nor does it correctly attribute those with multiple negative tests. Thus, the below is a very crude proxy where a 7-day mean of new cases and tests is divided for the test positivity rate. 
+
+![](SK_positivity.png)
+**Figure 13**: Crude proxy for test positivity rate. See above.
+
 
 # Global
 A subset of global countries are included so-as to ensure clear communication of data. 
 
 ![](World_exp.png)
-**Figure 10**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 14**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](World_deaths.png)
-**Figure 11**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+**Figure 15**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 ![](World_deaths_growthrates.png)
-**Figure 12**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
+**Figure 16**: Rate of change of the global death rate, expressed percentage growth. Computed as a 10-day moving window. The reference 2% rate is approximately South Korea's rate.
 
 ![](World_growthrates.png)
-**Figure 13**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
+**Figure 17**: 10-day moving window rate of change of growth for select countries. The reference 2% rate is approximately South Korea's rate.
 
 ![](World_change+method2.png)
-**Figure 14**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 18**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 ![](Global_normalized.png)
-**Figure 15**: Top 50 countries (by total cases). Deaths and cases are normalized against that countries peak value (deaths/cases seperate). 1 = the worst that country has seen.
+**Figure 19**: Top 50 countries (by total cases). Deaths and cases are normalized against that countries peak value (deaths/cases seperate). 1 = the worst that country has seen.
 
 # US
 
@@ -82,17 +102,20 @@ These data are from the New York Times github repository:
 https://github.com/nytimes/covid-19-data
 
 ![](US_selectStates_exp.png)
-**Figure 16**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 20**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](US_selectstates_growthrate.png)
-**Figure 17**: Top 5 states (w.r.t case load), incl Idaho. 10-day moving window rate of change of growth for select states. 
+**Figure 21**: Top 5 states (w.r.t case load), incl Idaho. 10-day moving window rate of change of growth for select states. 
 
 ![](US_selectStates_deaths.png)
-**Figure 18**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
+**Figure 22**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 ![](US_change+method2.png)
-**Figure 19**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 23**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 ![](us_normalized.png)
-**Figure 20**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
+**Figure 24**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
+
+[](US_top_daily_deaths.png)
+**Figure 25**: Daily deaths, colored for top 11 states. These are the top 11 states that have the absolute greatest deaths/day.
 
