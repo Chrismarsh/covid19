@@ -57,19 +57,23 @@ Normalized plots allow for more readily understanding the timing and relative im
 ![](canada_normalized.png)
 **Figure 10**: Death and cases values normalized against each respective peak, per province. 7-day rolling mean.
 
-## Province
-### Saskatchewan ###
+## Testing rates
 
-![](SK_hosp.png)
-**Figure 11**: Inpatient and ICU patient numbers.
+Many health regions do not (seem to?) report test positivity. As testing increases, this is useful to determine if increased testing is catching more asymptomatic cases that before. Dividing total positive/total tests misses the temporal correlation of tests and cases, nor does it correctly attribute those with multiple negative tests. Thus, the below is a very crude estimate where a 7-day mean of new cases and tests is divided for the test positivity rate. 
+Estimated testing rates using a weekly running mean of cases / total tests as an estimate. 
 
-![](SK_tests.png)
-**Figure 12**: Normalized testing and total number of positive cases.
+![](cad_tests.png)
+**Figure 11**: Normalized testing and total number of positive cases.
 
-SaskHealth does not (seem to?) report test positivity. As testing increases, this is useful to determine if increased testing is catching more asymptomatic cases that before. Dividing total positive/total tests misses the temporal correlation of tests and cases, nor does it correctly attribute those with multiple negative tests. Thus, the below is a very crude proxy where a 7-day mean of new cases and tests is divided for the test positivity rate. 
+<!-- ### Saskatchewan ### -->
 
-![](SK_positivity.png)
-**Figure 13**: Crude proxy for test positivity rate. See above.
+!<!-- [](SK_hosp.png)
+**Figure 11**: Inpatient and ICU patient numbers. -->
+
+<!-- ![](SK_tests.png)
+**Figure 12**: Normalized testing and total number of positive cases. -->
+
+
 
 
 # Global
