@@ -62,10 +62,19 @@ Estimated testing rates using a weekly running mean of cases / total tests as an
 ![](cad_tests.png)
 **Figure 11**: Estimated positive tests.
 
+## Vaccination roll-out
+
+A note on these data from @ishaberry"
+"Vaccine data should be considered preliminary and are subject to revision. The format of these new datasets may also change at any time as the data situation evolves. At present, vaccine distribution data are updates less frequently than vaccine administration data. These numbers should be considered an underestimate of the number of doses distributed, and in some cases the number of doses administered may appear to exceed the number of doses distributed."
+
+![](Canada_vax.png)
+**Figure 12**: Cumulative per-province vaccination 
+
+
 ### Saskatchewan ###
 
 ![](SK_hosp.png)
-**Figure 12**: Inpatient and ICU patient numbers.
+**Figure 13**: Inpatient and ICU patient numbers.
 
 
 
@@ -73,16 +82,16 @@ Estimated testing rates using a weekly running mean of cases / total tests as an
 A subset of global countries are included so-as to ensure clear communication of data. 
 
 ![](World_exp.png)
-**Figure 13**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 14**: Global logy growth  of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](World_deaths.png)
-**Figure 14**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
+**Figure 15**: Global time series of logy death counts. Per province sums shown on the right, although some overplotting of the values may occur when the values are close together.
 
 ![](World_change+method2.png)
-**Figure 15**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 16**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 ![](Global_normalized.png)
-**Figure 16**: Top 50 countries (by total cases). Deaths and cases are normalized against that countries peak value (deaths/cases seperate). 1 = the worst that country has seen.
+**Figure 17**: Top 50 countries (by total cases). Deaths and cases are normalized against that countries peak value (deaths/cases seperate). 1 = the worst that country has seen.
 
 # US
 
@@ -93,17 +102,17 @@ These data are from the New York Times github repository:
 https://github.com/nytimes/covid-19-data
 
 ![](US_selectStates_exp.png)
-**Figure 17**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
+**Figure 18**: Top 5 states (w.r.t case load),incl Idaho. Growth of reported infected cases. Reference growth rates expressed as days to double are shown. Cases are shown as days since the 100th reported case. 
 
 ![](US_selectStates_deaths.png)
-**Figure 18**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
+**Figure 19**: Top 5 states (w.r.t case load), incl Idaho. Growth of reported deaths. Reference growth rates expressed as days to double are shown. Deaths are shown as days since the 10th reported death. 
 
 ![](US_change+method2.png)
-**Figure 19**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
+**Figure 20**: New weekly case growth versus cumulative growth. Deviation from linear line suggests a move from exponential growth.
 
 ![](us_normalized.png)
-**Figure 20**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
+**Figure 21**: Deaths and cases are normalized against that state's peak value (deaths/cases seperate). 1 = the worst that state has seen.
 
 ![](US_top_daily_deaths.png)
-**Figure 21**: Daily deaths, colored for top 11 states. These are the top 11 states that have the absolute greatest deaths/day.
+**Figure 22**: Daily deaths, colored for top 11 states. These are the top 11 states that have the absolute greatest deaths/day.
 
