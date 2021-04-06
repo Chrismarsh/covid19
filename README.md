@@ -70,6 +70,8 @@ A note on these data from @ishaberry"
 ![](Canada_vax.png)
 **Figure 12**: Cumulative per-province vaccination 
 
+![](Canada_Sept_vax_prediction.png)
+**Figure 12b**: Cumulative Canada vaccination. Linear best fit shown in gray for a (poor) estimate of vaccination goals. Population is all of Canada, including <18. 
 
 ### Saskatchewan ###
 
